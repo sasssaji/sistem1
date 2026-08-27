@@ -1,4 +1,4 @@
-name: frontend
+name: seastem
 description: "A new Flutter project."
 publish_to: 'none' 
 
@@ -11,13 +11,23 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  google_fonts: ^5.0.0
+  camera: ^0.10.0
+  firebase_core: ^4.13.0
+  cloud_firestore: ^6.0.0
+  http: ^1.2.2
+  image: ^4.0.0
+  path_provider: ^2.0.0
+  shared_preferences: ^2.5.3
+  lottie: ^3.3.1
+  url_launcher: ^6.3.1
+  syncfusion_flutter_pdfviewer: ^28.2.12
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
   flutter_native_splash: ^2.2.30
+  flutter_launcher_icons: ^0.14.4
 
 flutter:
   uses-material-design: true
@@ -28,7 +38,11 @@ flutter:
     - lib/assets/images/banner/
     - lib/assets/images/home-shells/
     - lib/assets/images/shells/
-    - lib/assets/images/categories/
+    - lib/assets/images/categories/ 
+    - lib/assets/quiz/images/
+    - lib/assets/quiz/shell_quiz.json
+    - lib/assets/quiz/quiz_result.json
+    - lib/assets/quiz/passed.json
 
 flutter_native_splash:
   color: "#FFFFFF"
@@ -38,4 +52,12 @@ flutter_native_splash:
   web: false
   android_gravity: center
   ios_content_mode: center
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/images/app_icon.png"
+  remove_alpha_ios: false
+
+
 

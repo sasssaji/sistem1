@@ -1,0 +1,951 @@
+[
+  
+  {
+    "basic_identification": {
+      "common_name": "Abalone",
+      "scientific_name": "Haliotis spp.",
+      "family": "Haliotidae",
+      "genus": "Haliotis",
+      "classification": "Gastropod",
+      "conservation_status": "Varies by species (e.g., White Abalone is Critically Endangered)"
+    },
+    "image_path": "lib/assets/images/shells/abalones.png",
+    "appearance": {
+      "shell_shape": "Ear-shaped, flattened, low spiral convex dome",
+      "shell_color": "Brownish-green exterior; brilliant iridescent rainbow interior (nacre)",
+      "pattern": "Curved row of open respiratory pores along outer margin",
+      "surface_texture": "Rough and encrusted exterior; smooth iridescent mother-of-pearl interior",
+      "size": "10–30 cm",
+      "distinctive_markings": "Row of small open respiratory holes (tremata) near the shell edge"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal and sublittoral ocean reefs",
+      "water_type": "Marine",
+      "depth_range": "0–40 m",
+      "geographic_distribution": "Worldwide (Pacific, Atlantic, Indian Ocean coastal areas)",
+      "typical_environment": "Attached firmly to rocky substrates and kelp forest crevices"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (edges can be sharp)",
+      "toxicity": "Non-toxic (can absorb paralytic toxins during toxic algal red tides)",
+      "human_consumption": "Highly prized delicacy in global seafood markets"
+    },
+    "similar_species": [
+      "Keyhole Limpet (Fissurellidae)",
+      "Ormer (Haliotis tuberculata)"
+    ]
+  },
+  
+
+  {
+    "basic_identification": {
+      "common_name": "Argonaut / Paper Nautilus",
+      "scientific_name": "Argonauta argo",
+      "family": "Argonautidae",
+      "genus": "Argonauta",
+      "classification": "Cephalopod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/argonaut.png",
+    "appearance": {
+      "shell_shape": "Paper-thin, laterally compressed, boat-shaped egg case",
+      "shell_color": "White to ivory with dark brown nodular keel",
+      "pattern": "Ribbed ridges radiating across sides toward a double-keeled edge",
+      "surface_texture": "Brittle, paper-like, delicately ridged",
+      "size": "10–30 cm",
+      "distinctive_markings": "Double row of dark brown knobs along the central perimeter ridge"
+    },
+    "habitat": {
+      "habitat_type": "Pelagic open ocean",
+      "water_type": "Marine",
+      "depth_range": "0–100 m",
+      "geographic_distribution": "Worldwide tropical and subtropical waters",
+      "typical_environment": "Floating in upper ocean surface currents"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (extremely fragile shell)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not commercially targeted; consumed rarely in local fisheries"
+    },
+    "similar_species": [
+      "Chambered Nautilus (Nautilus pompilius)",
+      "Ram's Horn Squid (Spirula spirula)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Bubble Shell",
+      "scientific_name": "Bulla ampulla",
+      "family": "Bullidae",
+      "genus": "Bulla",
+      "classification": "Gastropod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "lib/assets/images/shells/bubble shells.png",
+    "appearance": {
+      "shell_shape": "Oval, subglobular, inflated shell with a sunken spire",
+      "shell_color": "Cream, beige, or mottled brown with darker blotches",
+      "pattern": "Marbled clouding with reddish-brown flecks",
+      "surface_texture": "Smooth and polished",
+      "size": "3–6 cm",
+      "distinctive_markings": "Deeply sunken (umbilicate) spire at apex and wide smooth aperture"
+    },
+    "habitat": {
+      "habitat_type": "Shallow muddy bays and seagrass beds",
+      "water_type": "Marine",
+      "depth_range": "0–20 m",
+      "geographic_distribution": "Indo-Pacific and Atlantic coastal regions",
+      "typical_environment": "Buried in soft sand or mud during daytime"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Not consumed",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not used for food due to small flesh mass and soft body chemicals"
+    },
+    "similar_species": [
+      "Moon Snail (Naticidae)",
+      "Haminoea Bubble Snail (Haminoeidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Chambered Nautilus",
+      "scientific_name": "Nautilus pompilius",
+      "family": "Nautilidae",
+      "genus": "Nautilus",
+      "classification": "Cephalopod",
+      "conservation_status": "Vulnerable"
+    },
+    "image_path": "lib/assets/images/shells/chambered nautilus.png",
+    "appearance": {
+      "shell_shape": "Smooth, coiled, internally chambered planispiral shell",
+      "shell_color": "White background with reddish-brown zebra-like stripes",
+      "pattern": "Radial orange-brown wavy bars spreading outward from center",
+      "surface_texture": "Smooth, glossy, with pearly nacre interior",
+      "size": "15–25 cm",
+      "distinctive_markings": "Internal camerae (air chambers) divided by mother-of-pearl septa"
+    },
+    "habitat": {
+      "habitat_type": "Deep ocean reef drop-offs and fore-reef slopes",
+      "water_type": "Marine",
+      "depth_range": "100–700 m",
+      "geographic_distribution": "Indo-Pacific Ocean",
+      "typical_environment": "Deep water ocean slopes near tropical coral reefs"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle shell (living animals possess a sharp parrot-like beak)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Protected species; trade strictly regulated under CITES"
+    },
+    "similar_species": [
+      "Paper Nautilus (Argonauta argo)",
+      "Allonautilus (Allonautilus scrobiculatus)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Cowrie",
+      "scientific_name": "Cypraeidae spp.",
+      "family": "Cypraeidae",
+      "genus": "Cypraea",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/cowries.png",
+    "appearance": {
+      "shell_shape": "Egg-shaped dome with flat underside and concealed spire",
+      "shell_color": "Highly variable (porcelain white, cream, spotted, or banded)",
+      "pattern": "Glossy solid color, fine spots, or intricate mottling",
+      "surface_texture": "High-gloss porcelain polish coating entire outer shell",
+      "size": "2–15 cm",
+      "distinctive_markings": "Long narrow aperture running length of underside lined with fine teeth"
+    },
+    "habitat": {
+      "habitat_type": "Coral reefs, rocky tide pools, under boulders",
+      "water_type": "Marine",
+      "depth_range": "0–30 m",
+      "geographic_distribution": "Worldwide tropical and subtropical seas",
+      "typical_environment": "Hidden inside reef crevices or beneath dead coral during daylight"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Not eaten",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not a food source; historically used as currency and jewelry"
+    },
+    "similar_species": [
+      "Ovulidae (False Cowries)",
+      "Margin Snail (Marginellidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Hard Clam / Quahog",
+      "scientific_name": "Mercenaria mercenaria",
+      "family": "Veneridae",
+      "genus": "Mercenaria",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/hard clams.png",
+    "appearance": {
+      "shell_shape": "Thick, heavy, heart-shaped to oval symmetrical bivalve",
+      "shell_color": "Dull greyish-white exterior; deep purple staining inside margin",
+      "pattern": "Concentric growth rings across outer valve",
+      "surface_texture": "Rough with fine concentric ridges near outer margins",
+      "size": "5–12 cm",
+      "distinctive_markings": "Dark purple patch on interior inner shell margin"
+    },
+    "habitat": {
+      "habitat_type": "Estuaries, coastal bays, and intertidal mudflats",
+      "water_type": "Brackish and marine",
+      "depth_range": "0–15 m",
+      "geographic_distribution": "Western Atlantic ocean (introduced globally)",
+      "typical_environment": "Buried in sand or soft mud below water line"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle. Harvest only from approved non-polluted waters.",
+      "toxicity": "Non-toxic (can filter-feed bacterial toxins in polluted runoffs)",
+      "human_consumption": "Major commercial food species (littlenecks, cherrystones, chowder clams)"
+    },
+    "similar_species": [
+      "Atlantic Surf Clam (Spisula solidissima)",
+      "Venus Clam (Veneridae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Helmet Shell / King Helmet",
+      "scientific_name": "Cassis cornuta",
+      "family": "Cassidae",
+      "genus": "Cassis",
+      "classification": "Gastropod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "lib/assets/images/shells/helmet shells.png",
+    "appearance": {
+      "shell_shape": "Large, heavy, helmet-shaped with broad flat parietal shield",
+      "shell_color": "Cream exterior; rich orange-pink glossy interior shield",
+      "pattern": "Large knobby blunt projections on shoulder whorls",
+      "surface_texture": "Rough reticulated body with mirror-smooth glossy ventral shield",
+      "size": "20–35 cm",
+      "distinctive_markings": "Massive flat orange-cream enamel parietal shield and dark tooth-like lip bars"
+    },
+    "habitat": {
+      "habitat_type": "Sandy seafloors near coral reefs",
+      "water_type": "Marine",
+      "depth_range": "2–30 m",
+      "geographic_distribution": "Indo-Pacific and Western Atlantic Ocean",
+      "typical_environment": "Shallow sand flats hunting sea urchins at night"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (heavy shell, handle with care)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Eaten in island communities; shells carved into cameos"
+    },
+    "similar_species": [
+      "Queen Helmet (Cassis madagascariensis)",
+      "Cameo Helmet (Cassis tuberosa)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Margin Shell / Marginella",
+      "scientific_name": "Marginellidae spp.",
+      "family": "Marginellidae",
+      "genus": "Marginella",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/margin shells.png",
+    "appearance": {
+      "shell_shape": "Small, oval to teardrop-shaped with short or concealed spire",
+      "shell_color": "Cream, yellow, light grey, or decorated with fine bands",
+      "pattern": "Smooth solid color, fine specks, or subtle spiral stripes",
+      "surface_texture": "Highly polished, smooth porcelain-like glaze",
+      "size": "0.5–3 cm",
+      "distinctive_markings": "Thickened outer lip margin and multi-folded ridges on lower column"
+    },
+    "habitat": {
+      "habitat_type": "Sand flats and coral rubble bottoms",
+      "water_type": "Marine",
+      "depth_range": "0–50 m",
+      "geographic_distribution": "Tropical and warm temperate oceans",
+      "typical_environment": "Burrowing in sublittoral sandy bottoms"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible (too small)",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not consumed due to miniature size"
+    },
+    "similar_species": [
+      "Cowrie (Cypraeidae)",
+      "Olive Shell (Olividae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Moon Snail",
+      "scientific_name": "Naticidae spp.",
+      "family": "Naticidae",
+      "genus": "Neverita / Natica",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/moon snails.png",
+    "appearance": {
+      "shell_shape": "Globular, smooth, rounded shell with short depressed spire",
+      "shell_color": "Tan, beige, cream, or light brownish-grey",
+      "pattern": "Plain uniform tone or faint spiral bands",
+      "surface_texture": "Very smooth and porcelain-like",
+      "size": "3–10 cm",
+      "distinctive_markings": "Large moon-shaped umbilical callosity and wide semi-circular aperture"
+    },
+    "habitat": {
+      "habitat_type": "Intertidal sand flats and muddy shores",
+      "water_type": "Marine",
+      "depth_range": "0–50 m",
+      "geographic_distribution": "Worldwide temperate and tropical waters",
+      "typical_environment": "Plowing beneath wet sand searching for bivalves"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Eaten in various coastal culinary traditions"
+    },
+    "similar_species": [
+      "Bubble Shell (Bullidae)",
+      "Nerite Snail (Neritidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Murex / Venus Comb Murex",
+      "scientific_name": "Murex pecten / Muricidae",
+      "family": "Muricidae",
+      "genus": "Murex",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/murex.png",
+    "appearance": {
+      "shell_shape": "Club-shaped body with extremely elongated, spiny siphonal canal",
+      "shell_color": "Cream, beige, or pale brownish-grey",
+      "pattern": "Symmetrical rows of outward-pointing needle spines",
+      "surface_texture": "Highly ornate, spiny, and deeply sculpted",
+      "size": "5–15 cm",
+      "distinctive_markings": "Comb-like rows of long, parallel sharp spines along siphonal channel"
+    },
+    "habitat": {
+      "habitat_type": "Sublittoral sand flats and rocky ocean beds",
+      "water_type": "Marine",
+      "depth_range": "5–100 m",
+      "geographic_distribution": "Indo-Pacific, Mediterranean, and Atlantic Ocean",
+      "typical_environment": "Offshore sandy or muddy sea floor"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "⚠️ Handle with care: extremely sharp spines can puncture skin easily",
+      "toxicity": "Non-toxic (historically used for Tyrian purple dye)",
+      "human_consumption": "Some Murex species are harvested for local culinary dishes"
+    },
+    "similar_species": [
+      "Rock Snail (Thaidinae)",
+      "Spiny Spider Conch (Lambis)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Mussel / Blue Mussel",
+      "scientific_name": "Mytilus edulis",
+      "family": "Mytilidae",
+      "genus": "Mytilus",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/mussel.png",
+    "appearance": {
+      "shell_shape": "Elongated, asymmetrical, wedge-shaped bivalve",
+      "shell_color": "Dark blue, black, or deep purple exterior; silver-blue interior",
+      "pattern": "Fine concentric growth lines radiating from pointed tip",
+      "surface_texture": "Smooth to slightly rough dark periostracum layer",
+      "size": "5–10 cm",
+      "distinctive_markings": "Pointed beak (umbo) at narrow end and tough fibrous attachment threads (byssus)"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal shorelines, piers, and sea walls",
+      "water_type": "Marine and brackish",
+      "depth_range": "0–10 m",
+      "geographic_distribution": "Worldwide temperate and cold ocean waters",
+      "typical_environment": "Clustered tightly in dense beds anchored to hard surfaces"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle. Avoid wild harvesting during dinoflagellate red tide blooms.",
+      "toxicity": "Non-toxic (can filter paralytic shellfish poison during harmful algae blooms)",
+      "human_consumption": "Extensively cultivated and eaten globally"
+    },
+    "similar_species": [
+      "Horse Mussel (Modiolus modiolus)",
+      "Date Mussel (Lithophaga)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Nautilus Pompilius / Emperor Nautilus",
+      "scientific_name": "Nautilus pompilius",
+      "family": "Nautilidae",
+      "genus": "Nautilus",
+      "classification": "Cephalopod",
+      "conservation_status": "Vulnerable"
+    },
+    "image_path": "lib/assets/images/shells/nautilus pompilius.png",
+    "appearance": {
+      "shell_shape": "Involute, smooth, coiled shell containing multiple gas-filled chambers",
+      "shell_color": "Ivory white base with bold reddish-orange bands",
+      "pattern": "Wavy tiger-stripe pattern fanning from center",
+      "surface_texture": "Smooth exterior enamel; iridescent nacreous interior",
+      "size": "15–25 cm",
+      "distinctive_markings": "Black central umbilical patch and internal chamber septa"
+    },
+    "habitat": {
+      "habitat_type": "Deep coral reef drop-offs",
+      "water_type": "Marine",
+      "depth_range": "100–700 m",
+      "geographic_distribution": "Indo-Pacific Ocean (Philippines, Indonesia, Australia)",
+      "typical_environment": "Deep tropical ocean reef slopes"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle shell",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Strictly restricted under international conservation treaties"
+    },
+    "similar_species": [
+      "Nautilus stenomphalus",
+      "Allonautilus scrobiculatus"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Olive Shell",
+      "scientific_name": "Olividae spp.",
+      "family": "Olividae",
+      "genus": "Oliva",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/olive shells.png",
+    "appearance": {
+      "shell_shape": "Cylindrical, smooth, bullet-shaped with low short spire",
+      "shell_color": "Cream, tan, brownish-grey, or white",
+      "pattern": "Glossy zig-zag lines, chevron netting, or mottled speckles",
+      "surface_texture": "Glass-like high polish enamel surface",
+      "size": "3–8 cm",
+      "distinctive_markings": "Long narrow aperture running length of body whorl with notched base"
+    },
+    "habitat": {
+      "habitat_type": "Intertidal sand flats and shallow coastal waters",
+      "water_type": "Marine",
+      "depth_range": "0–30 m",
+      "geographic_distribution": "Tropical and subtropical warm seas",
+      "typical_environment": "Burrowed just under wet sand surface"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Rarely eaten",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not used as a commercial food source"
+    },
+    "similar_species": [
+      "Cone Snail (Conidae — distinct flat spire and venomous)",
+      "Margin Shell (Marginellidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "True Oyster",
+      "scientific_name": "Ostreidae spp.",
+      "family": "Ostreidae",
+      "genus": "Crassostrea / Ostrea",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/oyster.png",
+    "appearance": {
+      "shell_shape": "Irregular, asymmetrical, heavily calcified bivalve",
+      "shell_color": "Dull chalky grey or brown exterior; white interior",
+      "pattern": "Concentric layered rough flaking ridges",
+      "surface_texture": "Extremely rough, scaly, and sharp-edged",
+      "size": "8–18 cm",
+      "distinctive_markings": "Lower valve cemented to substrate; dark purple muscle scar on interior wall"
+    },
+    "habitat": {
+      "habitat_type": "Estuaries, shallow bays, intertidal reefs",
+      "water_type": "Brackish and marine",
+      "depth_range": "0–10 m",
+      "geographic_distribution": "Worldwide coastal environments",
+      "typical_environment": "Attached to rocks or forming dense intertidal oyster reefs"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (edges are razor-sharp). Ensure clean water harvest if raw.",
+      "toxicity": "Non-toxic (may carry marine bacteria like Vibrio if raw)",
+      "human_consumption": "Highly prized global commercial seafood"
+    },
+    "similar_species": [
+      "Pearl Oyster (Pteriidae)",
+      "Thorny Oyster (Spondylidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Pearl Oyster",
+      "scientific_name": "Pinctada margaritifera",
+      "family": "Pteriidae",
+      "genus": "Pinctada",
+      "classification": "Bivalve",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "lib/assets/images/shells/pearl oyster.png",
+    "appearance": {
+      "shell_shape": "Flattened, compressed circular to square shell with straight hinge line",
+      "shell_color": "Dark greyish-green exterior; iridescent silver-black interior",
+      "pattern": "Scaly concentric growth lamellae on outer shell",
+      "surface_texture": "Rough scaly exterior; brilliant mother-of-pearl nacre interior",
+      "size": "10–25 cm",
+      "distinctive_markings": "Thick iridescent interior nacre capable of generating natural pearls"
+    },
+    "habitat": {
+      "habitat_type": "Tropical coral reefs and rocky sea beds",
+      "water_type": "Marine",
+      "depth_range": "1–40 m",
+      "geographic_distribution": "Indo-Pacific and tropical ocean regions",
+      "typical_environment": "Anchored to hard substrate in clear warm waters"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Adductor muscle is eaten; primarily cultured for pearl production"
+    },
+    "similar_species": [
+      "True Oyster (Ostreidae)",
+      "Winged Oyster (Pteria)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Razor Clam",
+      "scientific_name": "Ensis directus",
+      "family": "Solenidae",
+      "genus": "Ensis",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/razor clams.png",
+    "appearance": {
+      "shell_shape": "Elongated, narrow, straight or slightly curved rectangular shell",
+      "shell_color": "Yellowish-brown or olive-green coating over white shell",
+      "pattern": "Parallel longitudinal growth lines along shell length",
+      "surface_texture": "Smooth and glossy periostracum",
+      "size": "10–20 cm",
+      "distinctive_markings": "Ends remain gaping open at both top and bottom margins"
+    },
+    "habitat": {
+      "habitat_type": "Intertidal and shallow sandy mudflats",
+      "water_type": "Marine and brackish",
+      "depth_range": "0–15 m",
+      "geographic_distribution": "Atlantic coasts of North America and Europe",
+      "typical_environment": "Burrowed vertically in wet coastal sand"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (thin broken shells can be razor-sharp)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Harvested for seafood dishes globally"
+    },
+    "similar_species": [
+      "Pacific Razor Clam (Siliqua patula)",
+      "Stout Tagelus (Tagelus plebeius)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Spider Conch",
+      "scientific_name": "Lambis lambis",
+      "family": "Strombidae",
+      "genus": "Lambis",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/spider conch.png",
+    "appearance": {
+      "shell_shape": "Heavy oval body with long finger-like curved spines on outer lip",
+      "shell_color": "Cream/mottled brown exterior; smooth pinkish-cream inner lip",
+      "pattern": "Brown blotched pattern with flared finger projections",
+      "surface_texture": "Rough knobby exterior; mirror-smooth high-gloss aperture",
+      "size": "15–25 cm",
+      "distinctive_markings": "Six long finger-like hollow digits projecting outward from margin"
+    },
+    "habitat": {
+      "habitat_type": "Tropical coral reefs and seagrass beds",
+      "water_type": "Marine",
+      "depth_range": "1–20 m",
+      "geographic_distribution": "Indo-West Pacific region",
+      "typical_environment": "Sandy flats and reef rubble zones"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (watch out for blunt spine ends)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Widely cooked and eaten in Southeast Asian coastal communities"
+    },
+    "similar_species": [
+      "Scorpion Conch (Lambis scorpius)",
+      "Queen Conch (Lobatus gigas)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Surf Clam",
+      "scientific_name": "Spisula solidissima",
+      "family": "Mactridae",
+      "genus": "Spisula",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/surf clams.png",
+    "appearance": {
+      "shell_shape": "Large, thick, triangular to broad oval bivalve shell",
+      "shell_color": "Off-white to light yellowish-brown",
+      "pattern": "Concentric fine growth lines radiating from hinge",
+      "surface_texture": "Smooth to moderately ridged surface",
+      "size": "10–20 cm",
+      "distinctive_markings": "Large spoon-shaped pit (chondrophore) in internal hinge structure"
+    },
+    "habitat": {
+      "habitat_type": "High-energy surf zones and open sandy seafloors",
+      "water_type": "Marine",
+      "depth_range": "0–60 m",
+      "geographic_distribution": "Western Atlantic Ocean",
+      "typical_environment": "Buried in offshore clean sandy sediments"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Major source of commercial fried clam strips and canned chowders"
+    },
+    "similar_species": [
+      "Hard Clam (Mercenaria mercenaria)",
+      "Butter Clam (Saxidomus gigantea)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Textile Cone",
+      "scientific_name": "Conus textile",
+      "family": "Conidae",
+      "genus": "Conus",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/textile cone.png",
+    "appearance": {
+      "shell_shape": "Inverted cone shape with sharp, low spire",
+      "shell_color": "Yellowish-brown background with dark brown intricate network lines",
+      "pattern": "Interlocking woven textile design with white triangular tent marks",
+      "surface_texture": "Smooth and glossy surface",
+      "size": "4–10 cm",
+      "distinctive_markings": "Overlapping brown fine netting with white tent-like triangular patches"
+    },
+    "habitat": {
+      "habitat_type": "Shallow tropical coral reefs and sand beds",
+      "water_type": "Marine",
+      "depth_range": "0–20 m",
+      "geographic_distribution": "Indo-Pacific Ocean",
+      "typical_environment": "Hidden under coral rubble and sand during daytime"
+    },
+    "edibility_and_safety": {
+      "edibility": "NOT EDIBLE / HIGHLY VENOMOUS",
+      "safety_warning": "🔴 DANGER: Potentially lethal to humans! Fires venomous harpoon teeth capable of causing respiratory paralysis.",
+      "toxicity": "Highly toxic conotoxins (Venomous)",
+      "human_consumption": "Strictly non-edible. DO NOT handle living specimens!"
+    },
+    "similar_species": [
+      "Marble Cone (Conus marmoreus)",
+      "Courtly Cone (Conus aulicus)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Tiger Cowrie",
+      "scientific_name": "Cypraea tigris",
+      "family": "Cypraeidae",
+      "genus": "Cypraea",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/tiger cowrie.png",
+    "appearance": {
+      "shell_shape": "Large, heavy, dome-shaped egg-like shell with flat base",
+      "shell_color": "White/cream base with dense dark brown and black spots",
+      "pattern": "Spotted leopard/tiger-like pattern with red-brown undertones",
+      "surface_texture": "High-gloss porcelain enamel",
+      "size": "7–15 cm",
+      "distinctive_markings": "Heavy circular black/brown spots and orange-tinged central line along crest"
+    },
+    "habitat": {
+      "habitat_type": "Shallow tropical coral reefs",
+      "water_type": "Marine",
+      "depth_range": "0–30 m",
+      "geographic_distribution": "Indo-Pacific region",
+      "typical_environment": "Hiding under overhangs and live coral heads"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Rarely eaten",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not a commercial food; collected for decorative art and shells"
+    },
+    "similar_species": [
+      "Panther Cowrie (Cypraea pantherina)",
+      "Map Cowrie (Leporicypraea mappa)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Tulip Shell / Tulip Snail",
+      "scientific_name": "Fasciolaria tulipa",
+      "family": "Fasciolariidae",
+      "genus": "Fasciolaria",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/tulip shells.png",
+    "appearance": {
+      "shell_shape": "Spindle-shaped (fusiform) with smooth rounded body whorls",
+      "shell_color": "Reddish-brown, pinkish-tan, or greyish-brown",
+      "pattern": "Dark brown spiral line bands encircling body whorls",
+      "surface_texture": "Smooth surface with fine axial growth lines",
+      "size": "10–20 cm",
+      "distinctive_markings": "Sleek flower-bud shape with fine dark spiral pinstripes"
+    },
+    "habitat": {
+      "habitat_type": "Seagrass beds, sand flats, and oyster bars",
+      "water_type": "Marine",
+      "depth_range": "0–10 m",
+      "geographic_distribution": "Western Atlantic, Gulf of Mexico, Caribbean",
+      "typical_environment": "Crawling across sandy seagrass meadows"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Prepared in Caribbean soups and seafood stews"
+    },
+    "similar_species": [
+      "Banded Tulip (Cinctura hunteria)",
+      "Florida Horse Conch (Triplofusus papillosus)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Turban Snail",
+      "scientific_name": "Turbinidae spp.",
+      "family": "Turbinidae",
+      "genus": "Turbo",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/turban snails.png",
+    "appearance": {
+      "shell_shape": "Turbinate (top-shaped/turban-like) heavy spiral shell",
+      "shell_color": "Green, brown, cream, or mottled red and grey",
+      "pattern": "Coarse spiral ridges or bumpy knobby beads",
+      "surface_texture": "Rough exterior; rich mother-of-pearl interior",
+      "size": "5–10 cm",
+      "distinctive_markings": "Thick, dome-shaped calcareous door (cat's eye operculum) sealing shell opening"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal shorelines and coral reefs",
+      "water_type": "Marine",
+      "depth_range": "0–20 m",
+      "geographic_distribution": "Worldwide tropical and warm temperate seas",
+      "typical_environment": "Clinging tightly to algae-covered rocks"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Popular seafood species boiled or grilled in coastal cuisine"
+    },
+    "similar_species": [
+      "Top Shell (Trochidae)",
+      "Nerite Snail (Neritidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Tusk Shell",
+      "scientific_name": "Dentalium octangulatum",
+      "family": "Dentaliidae",
+      "genus": "Dentalium",
+      "classification": "Scaphopod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/tusk shell.png",
+    "appearance": {
+      "shell_shape": "Slender, hollow, curved tubular cylinder (shaped like a miniature elephant tusk)",
+      "shell_color": "White to ivory off-white",
+      "pattern": "Longitudinal fine ribbed ridges running end-to-end",
+      "surface_texture": "Smooth to delicately grooved",
+      "size": "2–8 cm",
+      "distinctive_markings": "Openings at both ends (large main mouth and tiny apical tail pore)"
+    },
+    "habitat": {
+      "habitat_type": "Sublittoral mud and sand ocean floors",
+      "water_type": "Marine",
+      "depth_range": "5–200 m",
+      "geographic_distribution": "Worldwide oceans",
+      "typical_environment": "Buried vertically head-first in sea bed sediments"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Not consumed",
+      "safety_warning": "🟢 Safe to handle (fragile structure)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not used for food; historically strung into Indigenous shell money (wampum)"
+    },
+    "similar_species": [
+      "Gadilida Tusk Shell (Gadilidae)",
+      "Worm Snail (Vermetidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Venus Clam",
+      "scientific_name": "Veneridae spp.",
+      "family": "Veneridae",
+      "genus": "Pitar / Chione / Venus",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/venus clams.png",
+    "appearance": {
+      "shell_shape": "Thick, symmetrical, heart-shaped or oval bivalve",
+      "shell_color": "Cream, beige, white, or decorated with brown markings",
+      "pattern": "Reticulated cross-hatched or concentric raised ribs",
+      "surface_texture": "Smooth to strongly sculpted and ridged",
+      "size": "3–10 cm",
+      "distinctive_markings": "Heart-shaped depressed lunule near hinge margin"
+    },
+    "habitat": {
+      "habitat_type": "Intertidal and shallow sublittoral sand/mud beds",
+      "water_type": "Marine",
+      "depth_range": "0–40 m",
+      "geographic_distribution": "Worldwide oceans",
+      "typical_environment": "Burrowed shallowly beneath sandy sea floors"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Widely harvested and farmed for culinary use globally"
+    },
+    "similar_species": [
+      "Hard Clam (Mercenaria mercenaria)",
+      "Cockle (Cardiidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Whelk / Common Whelk",
+      "scientific_name": "Buccinum undatum",
+      "family": "Buccinidae",
+      "genus": "Buccinum",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "lib/assets/images/shells/whelks.png",
+    "appearance": {
+      "shell_shape": "Robust spiral shell with large body whorl and deep siphonal notch",
+      "shell_color": "Off-white, greyish-yellow, or light reddish-brown",
+      "pattern": "Wavy spiral ridges and undulating vertical ribs",
+      "surface_texture": "Rough with thin fibrous protective coating (periostracum)",
+      "size": "8–15 cm",
+      "distinctive_markings": "Broad oval aperture with a wide, notched lower siphonal channel"
+    },
+    "habitat": {
+      "habitat_type": "Temperate and cold coastal mud, sand, and gravel seafloors",
+      "water_type": "Marine",
+      "depth_range": "0–100 m",
+      "geographic_distribution": "North Atlantic Ocean (European and North American coasts)",
+      "typical_environment": "Crawling along gravel ocean floors scavenging"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Commercially fished and popular in European and Asian seafood markets"
+    },
+    "similar_species": [
+      "Tulip Shell (Fasciolariidae)",
+      "Dog Whelk (Nucella lapillus)"
+    ]
+  }
+]

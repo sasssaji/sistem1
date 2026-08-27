@@ -1,11 +1,11 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:frontend/pages/home_screen.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'home_screen.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
+
 
   @override
   Widget build(BuildContext context) {
@@ -17,14 +17,14 @@ class OnboardingScreen extends StatelessWidget {
           Positioned.fill(
             child: Image.asset(
               'lib/assets/images/onboarding_background.png',
-              fit: BoxFit.center,
+              fit: BoxFit.cover,
               filterQuality: FilterQuality.high,
             ),
           ),
           Positioned.fill(
             child: DecoratedBox(
               decoration: BoxDecoration(
-                gradient: LinearrGradient(
+                gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomCenter,
                   colors: [
@@ -32,7 +32,7 @@ class OnboardingScreen extends StatelessWidget {
                     Colors.black.withOpacity(0.16),
                     Colors.transparent,
                   ],
-                  stops: const [0.0, 0.35, 1.0],
+                  stops: const [0.0, 0.45, 1.0],
                 ),
               ),
             ),
@@ -54,8 +54,8 @@ class OnboardingScreen extends StatelessWidget {
             ),
           ),
           const Positioned(
-            top: -70
-            left: -70
+            top: -70,
+            left: -70,
             child: SizedBox(
               width: 360,
               height: 360,
@@ -88,25 +88,35 @@ class OnboardingScreen extends StatelessWidget {
                   const SizedBox(height: 16),
                   Text(
                     'Discover the world of sea shells',
-                    style: GoogleFonts.Itim(
-                      color: const Color.fromARGB(255, 255, 234, 206),
-                      fontSize: 35,
+                    style: const TextStyle(
+                      color: Color.fromARGB(255, 74, 156, 239),
+                      fontSize: 25,
                       fontWeight: FontWeight.bold,
-                      height: 0.7,
+                      height: 0.9,
                       letterSpacing: 0.3,
+                      fontFamily: 'serif',
                     ),
                   ),
                   const SizedBox(height: 18),
                   SizedBox(
                     width: 320,
-                    child: Text(
-                      'Identify seashells instantly with AI, explore detailed species information, and discover the beauty of marine life.',
-                      style: GoogleFonts.Itim(
-                        color: const Color(0xFF3E2B18),
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        height: 1.5,
-                        background: Paint()..color = const Color.fromARGB(255, 255, 234, 206),
+                    child: RichText(
+                      text: TextSpan(
+                        style: const TextStyle(
+                          color: Color(0xFF3E2B18),
+                          fontSize: 13,
+                          fontWeight: FontWeight.bold,
+                          height: 1.5,
+                        ),
+                        children: [
+                          TextSpan(
+                            text:
+                                'Identify seashells instantly with AI, explore detailed species information, and discover the beauty of marine life.',
+                            style: const TextStyle(
+                              backgroundColor: Color.fromARGB(255, 191, 233, 255),
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
@@ -130,9 +140,9 @@ class OnboardingScreen extends StatelessWidget {
                             Center(
                               child: Text(
                                 'Get Started',
-                                style: GoogleFonts.poppins(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.600,
+                                style: const TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.w600,
                                   color: Colors.white,
                                 ),
                               ),
@@ -154,11 +164,11 @@ class OnboardingScreen extends StatelessWidget {
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 18.0),
                       child: Text(
-                        'Start exploring seashells online.',
-                        style: GoogleFonts.poppins(
-                          fontSize: 12,
-                          fontWeight: 500,
-                          color: const Color.fromARGB(255, 241, 204, 167),
+                        'Start exploring seashells offline.',
+                        style: const TextStyle(
+                          fontSize: 13,
+                          fontWeight: FontWeight.bold,
+                          color: Color.fromARGB(255, 2, 56, 91),
                         ),
                       ),
                     ),
@@ -178,8 +188,8 @@ class _SunRaysPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final center = Offset(size.width * 0.22, size.height * 0.22);
-    final rayPaint = Paint()..color = Colors.white.withOpacity(0.12);
+    final center = Offset(size.width * 0.22, size.height * 0.24);
+    final rayPaint = Paint()..color = const Color.fromARGB(255, 122, 217, 255).withOpacity(0.11);
     final rayAngles = [-0.55, -0.2, 0.15, 0.5, 0.85, 1.2];
 
     for (var index = 0; index < rayAngles.length; index++) {
@@ -198,8 +208,8 @@ class _SunRaysPainter extends CustomPainter {
 
     canvas.drawCircle(
       center,
-      24,
-      Paint()..color = Colors.white.withOpacity(0.2),
+      45,
+      Paint()..color = const Color.fromARGB(255, 18, 61, 142).withOpacity(0.2),
     );
   }
 
@@ -277,19 +287,19 @@ class _GlowingButtonState extends State<_GlowingButton>
           borderRadius: BorderRadius.circular(32),
           gradient: const LinearGradient(
             colors: [
-              Color(0xFF4A2B1A),
-              Color(0xFF9A6A43),
+              Color.fromARGB(255, 191, 233, 255),
+              Color.fromARGB(255, 39, 90, 141),
             ],
           ),
           boxShadow: [
             BoxShadow(
-              color: const Color(0xFF6E452B).withOpacity(_pressed ? 0.55 : 0.35),
+              color: const Color.fromARGB(255, 133, 193, 238).withOpacity(_pressed ? 0.55 : 0.35),
               blurRadius: _pressed ? 30 : 20,
               spreadRadius: _pressed ? 2 : 0,
               offset: const Offset(0, 8),
             ),
             BoxShadow(
-              color: const Color(0xFFC69A70).withOpacity(_pressed ? 0.28 : 0.18),
+              color: const Color.fromARGB(255, 141, 230, 248).withOpacity(_pressed ? 0.28 : 0.18),
               blurRadius: _pressed ? 32 : 28,
               spreadRadius: _pressed ? 2 : 0,
               offset: const Offset(0, 0),
