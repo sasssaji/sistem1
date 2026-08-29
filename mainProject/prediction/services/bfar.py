@@ -359,7 +359,7 @@ def _media_candidates(source_url):
                     media[pdf_url]['metadata_bulletin_number'] = (
                         f'SB {number_match.group(1)}' if number_match else None
                     )
-                    media[pdf_url]['metadata_date'] = _parse_date(title)
+                    media[pdf_url]['metadata_date'] = _parse_date(title) or _parse_date(pdf_url)
             total_pages = int(response.headers.get('X-WP-TotalPages', page_number))
             if page_number >= total_pages or len(results) < 100:
                 break
@@ -426,6 +426,16 @@ def _archive_candidates(source_url):
         if candidate['pdf_url'] not in seen_pdfs:
             seen_pdfs.add(candidate['pdf_url'])
             candidates.append(candidate)
+    candidates.sort(
+        key=lambda item: (
+            item.get('table_date')
+            or item.get('metadata_date')
+            or _parse_date(item.get('title', ''))
+            or _parse_date(item.get('pdf_url', ''))
+            or datetime.min.date()
+        ),
+        reverse=True,
+    )
     logger.info('BFAR archive crawl discovered %d bulletin PDF candidates', len(candidates))
     return candidates
 
@@ -490,9 +500,6 @@ def fetch_pdf(advisory_dict):
         parser = BfarPdfParser(pdf_filename=advisory_dict['pdf_filename'])
         parsed_data = parser.parse(content)
         parsed_data['pdf_text_extracted'] = bool(parser.pdf_text.strip())
-        if not parsed_data['pdf_text_extracted']:
-            parsed_data['bulletin_number'] = None
-            parsed_data['date'] = None
         
         logger.info(f"PDF parsed successfully: Bulletin {parsed_data['bulletin_number']} "
                    f"dated {parsed_data['date']}")
@@ -557,7 +564,21 @@ def sync_latest_advisory(force=False):
         )
         response.raise_for_status()
 
-        candidates = _archive_candidates(source_url)
+        try:
+            latest_page_candidate = _find_latest(response.text, source_url)
+        except ValueError:
+            latest_page_candidate = None
+
+        latest_pdf_url = latest_page_candidate['source_url'] if latest_page_candidate else ''
+        if latest_page_candidate and latest_pdf_url.lower().split('?', 1)[0].endswith('.pdf'):
+            candidates = [{
+                **latest_page_candidate,
+                'pdf_url': latest_pdf_url,
+                'metadata_date': latest_page_candidate.get('date'),
+            }]
+            logger.info('Using direct latest BFAR homepage PDF: %s', latest_pdf_url)
+        else:
+            candidates = _archive_candidates(source_url)
         if not candidates:
             raise ValueError('No Shellfish Bulletin PDF was found in the BFAR archive.')
 
@@ -616,6 +637,7 @@ def sync_latest_advisory(force=False):
                     current_year_count += 1
                 else:
                     older_year_count += 1
+                break
             except (requests.RequestException, ValueError, OSError) as exc:
                 logger.warning('Skipping invalid bulletin %s: %s', candidate['pdf_url'], exc)
 

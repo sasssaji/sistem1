@@ -130,6 +130,53 @@ class ShellfishAdvisoryTests(TestCase):
         finally:
             bfar_service._BFAR_SYNC_LOCK.release()
 
+    @patch('prediction.services.bfar.firebase_bulletins.upsert')
+    @patch('prediction.services.bfar.fetch_pdf')
+    @patch('prediction.services.bfar._archive_candidates')
+    @patch('prediction.services.bfar.requests.get')
+    def test_sync_uses_new_direct_homepage_bulletin_without_archive_crawl(
+        self, request_get, archive_candidates, fetch_pdf_mock, upsert_mock,
+    ):
+        listing = type('Response', (), {
+            'text': (
+                '<a href="/files/SB-20-22-August-2026.pdf">'
+                'Shellfish Bulletin No. 20 - August 22, 2026</a>'
+            ),
+            'content': b'html',
+            'status_code': 200,
+            'headers': {},
+            'raise_for_status': lambda self: None,
+        })()
+        request_get.return_value = listing
+        def fetch_latest(advisory):
+            advisory.update({
+                'pdf_filename': 'SB-20-22-August-2026.pdf',
+                'pdf_content_type': 'application/pdf',
+                'pdf_size': 128,
+                'pdf_sha256': 'def456',
+            })
+            return (
+                type('Response', (), {'headers': {'Content-Type': 'application/pdf'}})(),
+                {
+                    'status': 'OPEN',
+                    'affected_areas': ['Area B'],
+                    'important_information': 'Keep cautious.',
+                    'bulletin_number': 'SB 20',
+                    'date': date(2026, 8, 22),
+                    'pdf_text_extracted': True,
+                },
+            )
+
+        fetch_pdf_mock.side_effect = fetch_latest
+
+        from prediction.services.bfar import sync_latest_advisory
+        result = sync_latest_advisory(force=True)
+
+        self.assertTrue(result['changed'])
+        self.assertEqual(ShellfishAdvisory.objects.get().bulletin_number, 'SB 20')
+        archive_candidates.assert_not_called()
+        upsert_mock.assert_called_once()
+
     def test_advisory_endpoint_returns_cached_record_when_bfar_fails(self):
         advisory = ShellfishAdvisory.objects.create(
             bulletin_number='Bulletin 1',
